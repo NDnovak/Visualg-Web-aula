@@ -1,0 +1,66 @@
+algoritmo "RotinasComRetorno"
+
+funcao somar(a: inteiro, b: inteiro): inteiro
+inicio
+   retorne a + b
+fimfuncao
+
+funcao multiplicar(a: inteiro, b: inteiro): inteiro
+inicio
+   retorne a * b
+fimfuncao
+
+funcao subtrair(a: inteiro, b: inteiro): inteiro
+inicio
+   retorne a - b
+fimfuncao
+
+funcao dividir(a: inteiro, b: inteiro): real
+inicio
+   retorne a / b
+fimfuncao
+
+funcao quadrado(a: inteiro): inteiro
+inicio
+   retorne a * a
+fimfuncao
+
+funcao dobro(a: inteiro): inteiro
+inicio
+   retorne a * 2
+fimfuncao
+
+var
+   resultado: inteiro
+   resultado2: inteiro
+   resultado3: inteiro
+   resultado4: real
+   resultado5: inteiro
+   resultado6: inteiro
+
+inicio
+   escreval("Exemplo de rotinas com retorno")
+   escreval(" ")
+
+   resultado <- somar(10, 5)
+   escreval("O resultado da soma foi: ", resultado)
+
+   resultado2 <- multiplicar(4, 3)
+   escreval("O resultado da multiplicacao foi: ", resultado2)
+
+   resultado3 <- subtrair(20, 8)
+   escreval("O resultado da subtracao foi: ", resultado3)
+
+   resultado4 <- dividir(15, 3)
+   escreval("O resultado da divisao foi: ", resultado4)
+
+   resultado5 <- quadrado(6)
+   escreval("O quadrado do numero foi: ", resultado5)
+
+   resultado6 <- dobro(9)
+   escreval("O dobro do numero foi: ", resultado6)
+
+   escreval(" ")
+   escreval("Fim do programa.")
+
+fimalgoritmo
