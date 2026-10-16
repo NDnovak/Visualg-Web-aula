@@ -1,0 +1,17 @@
+algoritmo "operadores lógicos"
+
+var 
+  idade: inteiro
+  maioridadeCivil: inteiro
+  maioridadePenal: inteiro
+
+inicio
+  idade <-18
+  maioridadePenal <- 21
+  maioridadeCivil <- 18
+
+  escreval("É maior das duas idade? ", idade >= maioridadePenal E idade >= maioridadeCivil)
+  escreval("É maior de alguma idade? ", idade >=maioridadeCivil ou idade >= maioridadePenal)
+  escreval("É manor de idade para ambas? ", NAO(idade <= maioridadePenal E idade <= maioridadePenal))
+
+fimalgoritmo
